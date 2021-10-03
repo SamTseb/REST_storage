@@ -8,10 +8,10 @@
         <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.infotecs</groupId>
+    <groupId>com.SamTseb</groupId>
     <artifactId>service</artifactId>
     <version>1</version>
-    <name>test_work</name>
+    <name>SimpleREST</name>
     <description>REST project for Spring Boot</description>
     <packaging>jar</packaging>
 

@@ -1,4 +1,4 @@
-package com.infotecs.test_work.model;
+package com.SamTseb.SimpleREST.model;
 
 import java.util.Objects;
 

@@ -1,8 +1,8 @@
-package com.infotecs.test_work.service;
+package com.SamTseb.SimpleREST.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.infotecs.test_work.model.Entity;
+import com.SamTseb.SimpleREST.model.Entity;
 import org.springframework.stereotype.Service;
 
 
@@ -24,7 +24,7 @@ public class EntityServiceImpl implements EntityService {
 
     @Override
     public boolean create(String key, Entity entity, int ttl) {
-        if (key != null) {
+        if (key != null && !ENTITY_REPOSITORY_MAP.containsKey(key)) {
             entity.setKey(key);
             entity.setTtl(ttl);
             ENTITY_REPOSITORY_MAP.put(key, entity);

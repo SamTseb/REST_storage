@@ -1,6 +1,6 @@
-package com.infotecs.test_work.service;
+package com.SamTseb.SimpleREST.service;
 
-import com.infotecs.test_work.model.Entity;
+import com.SamTseb.SimpleREST.model.Entity;
 
 import java.util.List;
 

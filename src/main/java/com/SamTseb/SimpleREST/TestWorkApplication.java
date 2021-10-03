@@ -1,4 +1,4 @@
-package com.infotecs.test_work;
+package com.SamTseb.SimpleREST;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

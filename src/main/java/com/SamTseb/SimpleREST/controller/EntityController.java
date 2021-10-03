@@ -1,7 +1,7 @@
-package com.infotecs.test_work.controller;
+package com.SamTseb.SimpleREST.controller;
 
-import com.infotecs.test_work.model.Entity;
-import com.infotecs.test_work.service.EntityService;
+import com.SamTseb.SimpleREST.model.Entity;
+import com.SamTseb.SimpleREST.service.EntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
